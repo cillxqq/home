@@ -6,28 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>where it started !</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #4B5320;
-        }
-        #login {
-            display: block;
-        }
-        #content {
-            display: none;
-        }
-        .container {
-            text-align: center;
-            padding: 20px;
-            background: #FFFFFF;
-            border-radius: 8px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
-    </style>
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #4B5320; /* Military green */
+        color: #FFFFFF; /* White text */
+    }
+
+    #login, #content {
+        background: transparent; /* Make background transparent */
+        color: #FFFFFF; /* Keep text white */
+        padding: 0; /* Remove padding */
+        box-shadow: none; /* Remove shadow */
+        border-radius: 0; /* Remove rounded corners */
+    }
+
+    .container {
+        text-align: center;
+    }
+</style>
 </head>
 <body>
     <div class="container" id="login">
